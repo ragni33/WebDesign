@@ -1,0 +1,170 @@
+.face , .insta, .twitter , .snap , .linkedin , .search{
+    color: white;  
+} 
+.face:hover , .insta:hover, .twitter:hover , .search:hover , .snap:hover , .linkedin:hover{
+    color: white;
+} 
+
+
+
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .column  {
+   max-width: 1100px;
+    }
+  }
+  
+
+/* .search{ padding-left: 600px;} */
+body{ font-family: "Open Sans";}
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald";}
+.w3-content{ max-width: 1600px;}
+.w3-image{  
+    width: 100%;
+  
+  }
+  @media screen and (max-width: 600px){
+    .w3-image2{
+        width: 100%;
+        }
+@media screen and (max-width: 600px){
+.w3-text{
+    font-size: 20px;     
+}
+    #button{
+    font-size: medium; margin-left: 10px; 
+}
+
+}}
+#button:hover {
+    background-color: teal;
+
+}
+
+#btnlike:hover , #btnheart:hover , #btnrev:hover {
+    background-color: teal; cursor: pointer;
+    
+}
+
+      .box:hover
+      { 
+       
+        cursor: pointer;
+
+        transition-property: width ;
+    opacity: 5; 
+    transition-duration: 5s; cursor: zoom-in; 
+  width: 400px;}
+     
+    .card-img-top:hover
+    {
+      transition-duration: 1s;
+      transform: scale(.5s);
+      width: 400px;
+          }      .box{
+    position: relative;
+    flex-wrap: wrap;
+    display: inline-flex;
+    margin-right: 100px;
+    
+}
+
+@media screen and (max-width: 600px){
+    .box{
+width: 100%;
+flex-wrap: wrap;
+    }
+}
+ 
+
+.container{
+    
+  margin-top: 3px;  
+  background-color: whitesmoke;
+        height: 870px;
+        width: 100px;
+ padding-left: 300px;
+}
+
+
+    
+/* @media screen  and (max-width: 600px){
+    .card {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        
+      }
+    }
+    @media screen  and (max-width: 600px){
+        .card2 {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+            flex-wrap: wrap; text-align: justify; margin-left: 50%;
+            
+          }
+        
+        }
+        
+    
+     */
+
+     .footer{
+       background-color: black;
+       height: 500px; 
+     }
+
+     #con{
+       padding-top: 40x;
+     } #menu{
+      padding-top: -40x;
+    }
+    .list-unstyled li a{
+color: white;
+    }
+  .res-img{
+    width: 100%;
+    height: auto;
+  }
